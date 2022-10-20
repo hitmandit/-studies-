@@ -1,0 +1,127 @@
+@font-face{
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+  /* если необходим второй шрифт для формата woff (для старых браузеров),
+  должен быть физический, вставлять второй строкой src: utl("fonts/ptsans-400.woff") format("woff"); */
+}
+
+@font-face{
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body{
+  font-family: PT Sans, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.subscribe {
+  background-image: url("../images/background-mailing.jpg");
+}
+.filter {
+  background-image: url("../images/background-catalog.jpg");
+}
+
+.page-header{
+  color: #000000;
+  background-color: #ffffff;
+}
+  /* nav */
+.navigation-link{
+ font-size: 20px;
+ line-height: 26px;
+ font-weight: 700;
+ color:#000000;
+ text-decoration: none;
+}
+
+.page-main{
+  background-color:#FFFFFF;
+  background-image: url(../images/index-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+  /* main */
+.advantages{
+  text-align: center;
+}
+
+.section-title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.section-description{
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.advantages-title{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-item{
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-first-block{
+  color:#ffffff;
+  background: #83B3D3;
+}
+
+.advantages-item-white{
+  background: #FFFFFF;
+}
+
+.advantages-item-gray{
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.search, .subscribe{
+  text-align: center;
+}
+
+.section-title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.section-description{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.search-button{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.footer-phone{
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
